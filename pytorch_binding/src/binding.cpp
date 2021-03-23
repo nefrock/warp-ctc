@@ -12,7 +12,7 @@
 
     #include "THC.h"
     extern THCState* state;
-#endifls
+#endif
 
 #include "ctc.h"
 
