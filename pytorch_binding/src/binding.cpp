@@ -5,6 +5,8 @@
 
 #include <torch/extension.h>
 
+#define WARPCTC_ENABLE_GPU
+
 #ifdef WARPCTC_ENABLE_GPU
 	#include "ATen/cuda/CUDAContext.h"
 	#include <c10/cuda/CUDAGuard.h>
